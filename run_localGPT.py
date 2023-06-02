@@ -12,7 +12,7 @@ from constants import CHROMA_SETTINGS
 def load_model():
     '''
     Select a model on huggingface. 
-    If you are running this for the first time, it will download a model for you. 
+    If you are running this for the first  it will download a model for you. 
     subsequent runs will use the model from the disk. 
     '''
     model_id = "TheBloke/vicuna-7B-1.1-HF"
